@@ -30,6 +30,14 @@
             android:exported="true"
             android:label="@string/app_name"
             />
+        <activity android:name=".RecyclerViewTask"
+            android:exported="true"
+            android:label="@string/app_name"
+            />
+        <activity android:name=".CycleDeVie"
+            android:exported="true"
+            android:label="Cycle de vie"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">

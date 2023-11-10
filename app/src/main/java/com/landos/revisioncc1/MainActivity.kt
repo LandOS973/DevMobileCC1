@@ -55,6 +55,17 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 true
             }
+            R.id.recyclerView -> {
+                val intent = Intent(this, RecyclerViewTask::class.java)
+                intent.putExtra("tasks", tasks.toTypedArray())
+                startActivity(intent)
+                true
+            }
+            R.id.cycleDeVie -> {
+                val intent = Intent(this, CycleDeVie::class.java)
+                startActivity(intent)
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }

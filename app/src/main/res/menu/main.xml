@@ -20,5 +20,17 @@
         android:title="ListView"
         android:visible="true"
         />
+    <item
+        android:id="@+id/recyclerView"
+        android:orderInCategory="100"
+        android:title="RecyclerView"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/cycleDeVie"
+        android:orderInCategory="100"
+        android:title="Cycle de vie"
+        android:visible="true"
+        />
 
 </menu>

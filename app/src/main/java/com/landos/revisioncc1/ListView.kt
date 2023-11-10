@@ -19,8 +19,6 @@ class ListViewTask : AppCompatActivity() {
         val tasksArray = intent.getStringArrayExtra("tasks")
         tasks = (tasksArray?.toList() ?: mutableListOf()).toMutableList()
 
-        Toast.makeText(this, tasks.joinToString("\n"), Toast.LENGTH_SHORT).show()
-
         val adapter = AdapterListView(this)
         tasksListView.adapter = adapter
 
